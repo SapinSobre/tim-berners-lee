@@ -1,6 +1,9 @@
-@font-face{
+@font-face {
     font-family: 'Open-Sans';
-    src: url("./Open-Sans/static/OpenSans/OpenSans-Regular.ttf"), format("truetype");
+    src: url('OpenSans.eot');
+    src: url('OpenSans-Regular.ttf') format("truetype"),
+        url('OpenSans-Bold.ttf') format("truetype"),
+        url('OpenSans-Italic.ttf') format("truetype");
 }
 body{
     font-family: Open-Sans, Arial, sans-serif;
@@ -10,6 +13,7 @@ body{
 main {
     background-color: #ebebeb;  
     padding-top: 25px;
+    padding-bottom: 50px;
 }
 header, section{
     position: relative;
@@ -22,7 +26,6 @@ header, section{
     padding-bottom: 30px;
     border-radius: 2%;
 }
-
 header img{
     border: 3px solid #dcdcdc;
     border-radius: 50%;
@@ -45,9 +48,13 @@ figcaption{
 h1 {
     color: #dd5555;
     margin-top: 3%;
+    font-weight: bold;
 }
 h2, h3, p {
     color: #7d7e80;
+}
+span {
+    background-color: #e8e5e5;
 }
 h3{
     margin: 0;
