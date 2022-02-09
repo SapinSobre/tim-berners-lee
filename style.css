@@ -1,3 +1,73 @@
-.fa-solid fa-user{
+@font-face{
+    font-family: 'advent-pro';
+    src: url('advent-pro-regular.ttf') format('truetype');
+}
+.fa-solid fa-user {
     background-color: red;
+}
+/*h1 h2 p{
+    font-family: 'advent-pro', Arial, sans-serif;
+}*/
+body{
+    margin: 0;
+    padding: 0;
+}
+main {
+    position: absolute;
+    background-color: #ebebeb;
+}
+header, section {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+header img{
+    border: 3px solid #dcdcdc;
+    border-radius: 50%;
+    border-inline-style: inset;
+    width: 25%;
+    height: auto;
+}
+figure{
+    display: block;
+}
+figure img{
+    display: inline-block;
+    width: 15%;
+}
+figcaption{
+    display: inline-block;
+    width: 80%;
+}
+h1 {
+    color: #dd5555;
+    margin-top: 3%;
+}
+h2, h3, p {
+    color: #7d7e80;
+}
+h3{
+    margin: 0;
+}
+p {
+    width: 90%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+h3 {
+    padding: 5%;
+}
+a {
+    text-decoration: none;
+    width: 30%;
+    height: 20px;
+    color: white;
+    background-color: #dd5555;
+    border-radius: 5%;
+    padding: 2%;    
 }
