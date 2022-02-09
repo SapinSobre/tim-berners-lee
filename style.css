@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Open-Sans';
     src: url('OpenSans.eot');
-    src: url('OpenSans-Regular.ttf') format("truetype"),
-        url('OpenSans-Bold.ttf') format("truetype"),
-        url('OpenSans-Italic.ttf') format("truetype");
+    src: url('Open_Sans/static/OpenSans/OpenSans-Regular.ttf') format("truetype"),
+        url('Open_Sans/static/OpenSans/OpenSans-Bold.ttf') format("truetype"),
+        url('Open_Sans/static/OpenSans/OpenSans-Italic.ttf') format("truetype");
 }
 body{
     font-family: Open-Sans, Arial, sans-serif;
