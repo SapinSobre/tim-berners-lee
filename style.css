@@ -2,9 +2,7 @@
     font-family: 'advent-pro';
     src: url('advent-pro-regular.ttf') format('truetype');
 }
-.fa-solid fa-user {
-    background-color: red;
-}
+
 /*h1 h2 p{
     font-family: 'advent-pro', Arial, sans-serif;
 }*/
@@ -35,6 +33,7 @@ header img{
 }
 figure{
     display: block;
+    margin-left: 8%;
 }
 figure img{
     display: inline-block;
@@ -71,22 +70,29 @@ a {
     border-radius: 5%;
     padding: 2%;    
 }
+li figure{
+    width:80px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid #ffdddd;
+    border-radius: 50%;
+}
 li figure figcaption h3{
     padding-top: 0;
     margin-top: 0;
 }
 li figure{
     display: inline-block;
-    float: right;
+    float: right;    
 }
-li figcaption{
+li figure figcaption{
     display: block;
+    text-align: center;
 }
-ul{
-    position: relative;
-    height:auto;
-    padding: 0;
-    margin: 0;
-    top: -30px;
-    left: -20%;
+ul.fa-ul{
+    height:100px;
+    padding-right: 2%;
+}
+figure i{
+    padding-top: 20px;
 }
