@@ -85,11 +85,11 @@ li figure{
     display: inline-block;     
     text-align: center;
 }
-li figure figcaption{
+li figure figcaption {
     display: block;
     text-align: center;
     padding-left: 10%;
-    color: #ebebeb;
+    color: #afacac;
 }
 ul{
     position:relative;
@@ -100,7 +100,7 @@ ul{
 figure i {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #ebebeb;
+    color: #afacac;
 }
 li figure{
     padding: -10%;
